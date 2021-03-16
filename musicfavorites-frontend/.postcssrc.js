@@ -1,14 +1,9 @@
 module.exports = {
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-   darkMode: false, // or 'media' or 'class'
-   theme: {
-     extend: {},
-   },
-   variants: {
-     extend: {},
-   },
-  //  plugins: [],
-   plugins: {
-     "tailwindcss": "./tailwind.config.js"
-   },
- }
+  "plugins": {
+    "postcss-import": {},
+    "postcss-url": {},
+    "tailwindcss": "./tailwind.config.js",
+    // to edit target browsers: use "browserslist" field in package.json
+    "autoprefixer": {}
+  }
+}
