@@ -1,12 +1,6 @@
-@tailwind base;
+@tailwind preflight;
 @tailwind components;
 @tailwind utilities;
-/* @tailwind preflight; */
-/* 
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities"; */
-
 
 .input {
   @apply appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 leading-tight;
@@ -40,4 +34,8 @@
 
 .link-grey:hover {
   @apply text-grey-darker;
+}
+
+.raleway {
+  font-family: Raleway;
 }

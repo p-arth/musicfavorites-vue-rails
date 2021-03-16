@@ -111,6 +111,7 @@ module.exports = {
       'Droid Sans',
       'Helvetica Neue',
       'sans-serif',
+      'Raleway',
     ],
     'serif': [
       'Constantia',
