@@ -70,6 +70,7 @@ export default {
         text
     },
     signedIn () {
+      this.$forceUpdate()
       return localStorage.signedIn
     },
     signOut () {
@@ -81,6 +82,7 @@ export default {
           this.$router.replace('/')
         })
         .catch(error => this.setError(error, "Can't sign out"))
+      this.$forceUpdate()
     }
   }
 }
